@@ -4,4 +4,4 @@ Gawk script to process `<!-- @jade fileName -->` Comments in static files and in
 
 example: `spirl ./index.html > output.html`
 
-If index.html has <!-- @jade spo --> script will compile spo.jade and insert it directly under the comment
+If index.html has `<!-- @jade spo -->` script will compile spo.jade and insert it directly under the comment inside of ... index.html
